@@ -1,0 +1,279 @@
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.5em;
+    letter-spacing: -0.2px;
+    color: white;
+    margin: 0;
+    /* text-transform: uppercase; */
+}
+
+h1 strong {
+    color: #812dfd;
+}
+
+h2 {
+    color: #812dfd;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.header {
+    background-color: #1d252c;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.header .menu {
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.hero {
+    display: flex;
+    height: 300px;
+    background-color: #1d252c;
+    /* background-image: url('../images/hero.jpg');
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image {
+    object-fit: cover;
+}
+
+.portfolio {
+    background: #fafafa;
+    padding: 20px;
+}
+
+.project {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px #8c8c8c;
+    padding: 20px;
+    background: white;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.project-details {
+    width: 500px;
+}
+
+.project-title {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.project-course,
+.project-date,
+.project-url {
+    margin: 10px 0;
+}
+
+.project-description {
+    font-size: 16px;
+}
+
+.project-image-wrapper {
+    width: 500px;
+}
+
+.events {
+    padding: 20px;
+}
+
+.events-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.event {
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    overflow: hidden;
+    background: #f4fbff;
+}
+
+.event img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-details {
+    margin: 20px 35px;
+    margin-top: -40px;
+    padding: 20px;
+    background: white;
+    position: relative;
+    text-align: center;
+}
+
+.event-description {
+    text-align: left;
+}
+
+.event-url {
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #056fff;
+    border-radius: 5px;
+}
+
+.contact {
+    background: #812dfd;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-form h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contact-form input {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px 20px 5px 25px;
+    background-image: url('../images/envelope.svg');
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.contact-form button {
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 10px 0;
+    width: 100px;
+    border-radius: 5px;
+}
+
+/* .contact-social {
+    border: 1px solid red;
+} */
+
+.social-link {
+    margin: 0 20px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid white; */
+}
+
+.social-link.twitter {
+    background: url('../images/twitter.svg');
+    background-size: 50px 50px;
+}
+
+.social-link.facebook {
+    background: url('../images/facebook.svg');
+    background-size: 50px 50px;
+}
+.social-link.github {
+    background: url('../images/github.svg');
+    background-size: 50px 50px;
+}
+.social-link.instagram {
+    background: url('../images/instagram.svg');
+    background-size: 50px 50px;
+}
+
+.footer {
+    color: white;
+    background: #1d252c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: #812dfd;
+    text-decoration: none;
+}
+
+.container {
+    width: 1000px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
